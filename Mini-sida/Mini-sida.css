@@ -3,3 +3,7 @@
   align-content: flex-start;
   width: 100%;
 }
+
+#BildHeader {
+  margin: 2%;
+}
