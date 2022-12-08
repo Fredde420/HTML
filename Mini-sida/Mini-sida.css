@@ -5,5 +5,21 @@
 }
 
 #BildHeader {
-  margin: 2%;
+  height: 50px;
+}
+
+.meny {
+  background-color: red;
+  height: 186px;
+}
+
+@media (max-width: 100%) {
+  .meny {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.meny-item {
+  margin-left: 10%;
 }
