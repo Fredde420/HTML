@@ -4,20 +4,15 @@
   width: 100%;
 }
 
-#BildHeader {
+.BildHeader {
   height: 50px;
+  display: flex;
+  align-content: center;
 }
 
 .meny {
-  background-color: red;
-  height: 186px;
-}
-
-@media (max-width: 100%) {
-  .meny {
-    flex-direction: column;
-    align-items: center;
-  }
+  background-color: rgb(59, 59, 59);
+  height: 130px;
 }
 
 .meny-item {
