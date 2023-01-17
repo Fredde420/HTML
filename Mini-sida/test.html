@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>CS:GO</title>
+    <link rel="stylesheet" type="text/css" href="test.css" />
+    <script
+      src="https://kit.fontawesome.com/5ab1b04ad5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function checkCredentials() {
+        //var name, password;
+        // do {
+        //    name = prompt("Skriv in ditt namn:");
+        //   password = prompt("Skriv in 123:");
+        // if (name !== "Martin" || password !== "123") {
+        //    alert("Skriv in rätt lösen eller namn.");
+        //    }
+        //använder en do while loop
+        //  } while (name !== "Martin" || password !== "123");
+        // får tillgång till sidan
+      }
+    </script>
+  </head>
+  <body onload="checkCredentials()">
+    <img id="logo" src="CSGO_logo.png" alt="CS:GO Logo" />
+    <h1>Välkommen till världen av CS:GO</h1>
+    <div class="grå-rektanglar">
+      <div id="bild-innehåll-1">
+        <img class="image" src="The Arms Deal Update.png" alt="bild 1" />
+        <a href="CSuppdatering.html" class="image-text"
+          >CS:GOs största updatering
+        </a>
+      </div>
+      <div id="bild-innehåll-2">
+        <img class="image" src="History-CSGO.png" alt="bild 2" />
+        <a href="CShistoria.html" class="image-text">CS:GOs historia</a>
+      </div>
+      <div id="video-innehåll">
+        <video id="video" autoplay loop muted>
+          <source
+            src="Counter-Strike_ Global Offensive Trailer 4K 60FPS.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <div id="icon-bar">
+      <a href="https://www.instagram.com/"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://twitter.com/?lang=sv"
+        ><i class="fa-brands fa-twitter"></i
+      ></a>
+      <a href="https://sv-se.facebook.com/"
+        ><i class="fa-brands fa-facebook"></i
+      ></a>
+      <a href="https://se.linkedin.com/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://www.youtube.com/"
+        ><i class="fa-brands fa-youtube"></i
+      ></a>
+      <p>Skriv in dina kontakt upgifter</p>
+      <form class="form">
+        <input placeholder="Ditt namn" />
+        <input placeholder="Skriv in ditt telefonnummer" />
+        <input placeholder="Skriv in din email" />
+        <input type="submit" value="Skicka" />
+      </form>
+    </div>
+  </body>
+</html>
