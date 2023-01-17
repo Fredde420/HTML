@@ -10,3 +10,29 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+
+#text-box {
+  border: 10px solid;
+  border-color: rgb(136, 136, 136);
+  border-radius: 8px;
+  background-color: rgb(185, 102, 0);
+  color: white;
+  margin: 30px;
+  margin-left: 80px;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+  font-size: 20px;
+  float: left;
+}
+
+#exempel-img {
+  float: right;
+  border: 10px solid;
+  border-radius: 8px;
+  border-color: rgb(136, 136, 136);
+  margin: 30px;
+  margin-right: 80px;
+  margin-top: 55px;
+}

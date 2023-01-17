@@ -26,13 +26,10 @@ h1 {
   height: 300px;
   overflow: auto;
   font-size: 20px;
-}
-
-#text-box {
   float: left;
 }
 
-#example-img {
+#exempel-img {
   float: right;
   border: 10px solid;
   border-radius: 8px;
