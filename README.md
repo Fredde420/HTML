@@ -1,1 +1,1 @@
-Ignorera gitnore
+Ignorera gitgnore
