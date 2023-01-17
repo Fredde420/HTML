@@ -14,27 +14,27 @@ h1 {
 }
 
 #text-box {
-  border: 10px solid;
+  border: 0.6vw solid;
   border-color: rgb(136, 136, 136);
-  border-radius: 8px;
+  border-radius: 0.6vw;
   background-color: rgb(185, 102, 0);
   color: white;
-  margin: 30px;
-  margin-left: 80px;
-  padding: 20px;
-  width: 600px;
-  height: 300px;
+  margin: 2vw;
+  margin-left: 5vw;
+  padding: 1vw;
+  width: 31vw;
+  height: 17vw;
   overflow: auto;
-  font-size: 20px;
+  font-size: 1.03vw;
   float: left;
 }
 
 #exempel-img {
   float: right;
-  border: 10px solid;
-  border-radius: 8px;
+  border: 0.6vw solid;
+  border-radius: 0.6vw;
   border-color: rgb(136, 136, 136);
-  margin: 30px;
-  margin-right: 80px;
-  margin-top: 55px;
+  margin: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vw;
 }
