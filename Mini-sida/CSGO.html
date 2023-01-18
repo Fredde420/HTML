@@ -22,58 +22,68 @@
     </script>
   </head>
   <body onload="checkCredentials()">
-    <img id="logo" src="CSGO_logo.png" alt="CS:GO Logo" />
-    <h1>Välkommen till världen av CS:GO</h1>
-    <div class="grå-rektanglar">
-      <div id="bild-innehåll-1">
-        <img
-          class="image"
-          src="The Arms Deal Update.png"
-          alt="Arms deal updatering"
-        />
-        <a href="CSuppdatering.html" class="image-text"
-          >CS:GOs största updatering
-        </a>
-      </div>
-      <div id="bild-innehåll-2">
-        <img class="image" src="History-CSGO.png" alt="bild 2" />
-        <a href="CShistoria.html" class="image-text">CS:GOs historia</a>
-      </div>
-      <div id="video-innehåll">
-        <video id="video" autoplay loop muted>
-          <source
-            src="Counter-Strike_ Global Offensive Trailer 4K 60FPS.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-    <div id="icon-bar">
-      <a href="https://www.instagram.com/"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <a href="https://twitter.com/?lang=sv"
-        ><i class="fa-brands fa-twitter"></i
-      ></a>
-      <a href="https://sv-se.facebook.com/"
-        ><i class="fa-brands fa-facebook"></i
-      ></a>
-      <a href="https://se.linkedin.com/"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a href="https://www.youtube.com/"
-        ><i class="fa-brands fa-youtube"></i
-      ></a>
-      <p>Skriv in dina kontakt upgifter</p>
-      <form class="form">
-        <div class="namn"><input placeholder="Ditt namn" /></div>
-        <div class="telefonnummer">
-          <input placeholder="Skriv in ditt telefonnummer" />
+    <header>
+      <img id="logo" src="CSGO_logo.png" alt="CS:GO Logo" />
+      <h1>Välkommen till världen om CS:GO</h1>
+    </header>
+    <main>
+      <section class="grå-rektanglar">
+        <article id="bild-innehåll-1">
+          <picture>
+            <source srcset="The Arms Deal Update.png" />
+            <img
+              class="image"
+              src="The Arms Deal Update.png"
+              alt="Arms deal updatering"
+            />
+          </picture>
+          <a href="CSuppdatering.html" class="image-text"
+            >CS:GOs största updatering
+          </a>
+        </article>
+        <article id="bild-innehåll-2">
+          <picture>
+            <source media="(min-width: 600px)" srcset="History-CSGO.png" />
+            <img class="image" src="History-CSGO.png" alt="bild 2" />
+          </picture>
+          <a href="CShistoria.html" class="image-text">CS:GOs historia</a>
+        </article>
+        <div id="video-innehåll">
+          <video id="video" autoplay loop muted>
+            <source
+              src="Counter-Strike_ Global Offensive Trailer 4K 60FPS.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
-        <div class="email"><input placeholder="Skriv in din email" /></div>
-        <div class="skicka knapp"><input type="submit" value="Skicka" /></div>
-      </form>
-    </div>
+      </section>
+      <nav id="icon-bar">
+        <a href="https://www.instagram.com/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=sv"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://sv-se.facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://se.linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <p>Skriv in dina kontakt upgifter</p>
+        <form class="form">
+          <div class="namn"><input placeholder="Ditt namn" /></div>
+          <div class="telefonnummer">
+            <input placeholder="Skriv in ditt telefonnummer" />
+          </div>
+          <div class="email"><input placeholder="Skriv in din email" /></div>
+          <div class="skicka knapp"><input type="submit" value="Skicka" /></div>
+        </form>
+      </nav>
+    </main>
   </body>
 </html>
